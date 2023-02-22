@@ -13,7 +13,7 @@ Restaurant.destroy_all
 
 puts 'Creating restaurants...'
 
-5.times do |number|
+5.times do
 
   Restaurant.create!(
     name: Faker::TvShows::BojackHorseman.character,
